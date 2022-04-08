@@ -24,7 +24,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/compra/**").authenticated()
                 .antMatchers("/produto/**").authenticated()
-                .antMatchers("/user/**").authenticated();
 
     }
 
