@@ -23,7 +23,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/compra/**").authenticated()
-                .antMatchers("/produto/**").authenticated()
+                .antMatchers("/produto/**").authenticated();
 
     }
 
